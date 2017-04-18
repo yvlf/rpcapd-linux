@@ -17,6 +17,7 @@ Installation under Ubuntu Linux:
     make
 
 Installation under Centos/Fedora/Redhat Linux:
+Centos 系统需要将 Makefile 里面的 -static 删除掉，否则编译会报错！
 
 libcrypt.a in glibc-static is broken in ,remove `-static` in Makefile
 
